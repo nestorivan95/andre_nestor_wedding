@@ -1,0 +1,148 @@
+'use client'
+
+export default function TravelInfo() {
+  return (
+    <section
+      id="viaje"
+      className="section-container bg-gradient-to-b from-white to-wedding-beige"
+    >
+      <h2 className="section-title">Información de Viaje y Alojamiento</h2>
+
+      <div className="max-w-4xl mx-auto space-y-8">
+        {/* Hoteles Sugeridos */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+          <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
+            Hoteles Sugeridos
+          </h3>
+          
+          <p className="text-center text-gray-700 mb-8">
+            Hemos negociado tarifas especiales en los siguientes hoteles para nuestros invitados.
+            Menciona "Boda Andrea & Nestor" al hacer tu reservación.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-6 bg-wedding-cream rounded-xl border-l-4 border-wedding-gold">
+              <h4 className="font-semibold text-xl mb-2">Hotel Lagoon</h4>
+              <p className="text-gray-600 mb-3">Llanogrande, Antioquia</p>
+              <p className="text-gray-700 mb-4">
+                Hotel ubicado en Llanogrande, cerca de los lugares del evento.
+              </p>
+              <div className="space-y-2 text-sm">
+                <p className="text-gray-600">
+                  <span className="font-semibold">Dirección:</span> Por confirmar
+                </p>
+                <p className="text-gray-600">
+                  <span className="font-semibold">Tel:</span> Por confirmar
+                </p>
+                <p className="text-gray-600">
+                  <span className="font-semibold">Tarifa aproximada:</span> Por confirmar
+                </p>
+                <p className="text-sm text-gray-500 mt-2">
+                  * Menciona "Boda Andrea & Néstor" al hacer tu reservación
+                </p>
+              </div>
+            </div>
+
+            <div className="p-6 bg-wedding-cream rounded-xl border-l-4 border-wedding-gold">
+              <h4 className="font-semibold text-xl mb-2">Hotel Movich</h4>
+              <p className="text-gray-600 mb-3">Llanogrande, Antioquia</p>
+              <p className="text-gray-700 mb-4">
+                Hotel ubicado en Llanogrande, cerca de los lugares del evento.
+              </p>
+              <div className="space-y-2 text-sm">
+                <p className="text-gray-600">
+                  <span className="font-semibold">Dirección:</span> Por confirmar
+                </p>
+                <p className="text-gray-600">
+                  <span className="font-semibold">Tel:</span> Por confirmar
+                </p>
+                <p className="text-gray-600">
+                  <span className="font-semibold">Tarifa aproximada:</span> Por confirmar
+                </p>
+                <p className="text-sm text-gray-500 mt-2">
+                  * Menciona "Boda Andrea & Néstor" al hacer tu reservación
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Cómo Llegar */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+          <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
+            Cómo Llegar
+          </h3>
+          
+          <div className="space-y-6">
+            <div className="p-6 bg-wedding-cream rounded-xl">
+              <h4 className="font-semibold text-lg mb-4 flex items-center">
+                <span className="text-wedding-gold mr-2 text-2xl">✈️</span>
+                Desde el Aeropuerto José María Córdova
+              </h4>
+              <p className="text-gray-700 mb-4">
+                El Aeropuerto Internacional José María Córdova está ubicado en Rionegro, 
+                aproximadamente a 30-45 minutos de Llanogrande, dependiendo del tráfico.
+              </p>
+              
+              <div className="space-y-4">
+                <div>
+                  <h5 className="font-semibold text-gray-800 mb-2">A la Parroquia Nuestra Señora de Chiquinquirá:</h5>
+                  <ul className="text-gray-700 space-y-2 text-sm ml-4">
+                    <li>• <strong>Taxi/Uber:</strong> Aproximadamente 45-60 minutos</li>
+                    <li>• <strong>Transporte privado:</strong> Contacta con el hotel para opciones</li>
+                    <li>• <strong>Renta de auto:</strong> Disponible en el aeropuerto</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h5 className="font-semibold text-gray-800 mb-2">A SantaMonica Premium:</h5>
+                  <ul className="text-gray-700 space-y-2 text-sm ml-4">
+                    <li>• <strong>Taxi/Uber:</strong> Aproximadamente 45-60 minutos</li>
+                    <li>• <strong>Transporte privado:</strong> Contacta con el hotel para opciones</li>
+                    <li>• <strong>Renta de auto:</strong> Disponible en el aeropuerto</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 bg-wedding-cream rounded-xl">
+              <h4 className="font-semibold text-lg mb-4 flex items-center">
+                <span className="text-wedding-gold mr-2 text-2xl">🚗</span>
+                En Auto
+              </h4>
+              <p className="text-gray-700 mb-3">
+                Te recomendamos usar aplicaciones de navegación como Google Maps o Waze
+                para llegar a los lugares del evento.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Transporte Local */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+          <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
+            Transporte Local Recomendado
+          </h3>
+          
+          <div className="space-y-4 text-center">
+            <p className="text-gray-700 mb-6">
+              Para moverse por Llanogrande y alrededores, te recomendamos:
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="p-4 bg-wedding-cream rounded-lg">
+                <p className="font-semibold mb-2">Uber / DiDi</p>
+                <p className="text-sm text-gray-600">Aplicaciones de transporte</p>
+              </div>
+              <div className="p-4 bg-wedding-cream rounded-lg">
+                <p className="font-semibold mb-2">Taxi</p>
+                <p className="text-sm text-gray-600">Sitios oficiales recomendados</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+

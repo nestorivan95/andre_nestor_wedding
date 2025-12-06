@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-wedding-cream text-gray-800;
+    background-color: #F2EDEB;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-elegant text-center mb-12 text-gray-800;
+  }
+  
+  .btn-primary {
+    @apply bg-wedding-gold text-white px-8 py-3 rounded-full font-semibold 
+           hover:bg-wedding-accent transition-all duration-300 shadow-lg hover:shadow-xl
+           transform hover:-translate-y-1;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-wedding-gold text-wedding-gold px-8 py-3 rounded-full 
+           font-semibold hover:bg-wedding-gold hover:text-white transition-all 
+           duration-300;
+  }
+}
+
+/* Animaciones suaves */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Scroll suave entre secciones */
+html {
+  scroll-padding-top: 80px;
+}
+
