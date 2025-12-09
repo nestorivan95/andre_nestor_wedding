@@ -70,16 +70,16 @@ export default function Contact() {
               <h4 className="font-semibold text-xl mb-2">Andrea Guzmán</h4>
               <p className="text-gray-600 mb-3">Novia</p>
               <a
-                href="mailto:andre@ejemplo.com"
+                href="mailto:andreitagga98@gmail.com"
                 className="text-wedding-gold hover:underline block"
               >
-                andre@ejemplo.com
+                andreitagga98@gmail.com
               </a>
               <a
-                href="tel:+5215512345678"
+                href="tel:+573188896092"
                 className="text-gray-700 hover:text-wedding-gold block mt-2"
               >
-                +52 55 1234 5678
+                +57 318 889-6092
               </a>
             </div>
 
@@ -88,23 +88,19 @@ export default function Contact() {
               <h4 className="font-semibold text-xl mb-2">Néstor Ramírez</h4>
               <p className="text-gray-600 mb-3">Novio</p>
               <a
-                href="mailto:nestor@ejemplo.com"
+                href="mailto:nestorivan00@gmail.com"
                 className="text-wedding-gold hover:underline block"
               >
-                nestor@ejemplo.com
+                nestorivan00@gmail.com
               </a>
               <a
-                href="tel:+5215598765432"
+                href="tel:+573046495050"
                 className="text-gray-700 hover:text-wedding-gold block mt-2"
               >
-                +52 55 9876 5432
+                +57 304 649-5050
               </a>
             </div>
           </div>
-
-          <p className="text-center text-gray-500 text-sm mt-6">
-            * Reemplaza estos datos de contacto con tus datos reales
-          </p>
         </div>
 
         {/* Preguntas Frecuentes */}

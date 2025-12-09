@@ -22,38 +22,46 @@ export default function TravelInfo() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-wedding-cream rounded-xl border-l-4 border-wedding-gold">
               <h4 className="font-semibold text-xl mb-2">Hotel Lagoon</h4>
-              <p className="text-gray-600 mb-3">Llanogrande, Antioquia</p>
-              <p className="text-gray-700 mb-4">
-                Hotel ubicado en Llanogrande, cerca de los lugares del evento.
-              </p>
               <div className="space-y-2 text-sm">
                 <p className="text-gray-600">
-                  <span className="font-semibold">Dirección:</span> Por confirmar
+                  <span className="font-semibold">Dirección:</span> Km 13+800 vía JMC vereda El Tablazo, Rionegro, Antioquia
                 </p>
                 <p className="text-gray-600">
-                  <span className="font-semibold">Tel:</span> Por confirmar
+                  <span className="font-semibold">Tel:</span> (604) 4406720
                 </p>
                 <p className="text-gray-600">
-                  <span className="font-semibold">Tarifa aproximada:</span> Por confirmar
+                  <span className="font-semibold">Página web:</span>{' '}
+                  <a
+                    href="https://www.lagoonhotel.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-wedding-gold hover:underline"
+                  >
+                    https://www.lagoonhotel.com/
+                  </a>
                 </p>
               </div>
             </div>
 
             <div className="p-6 bg-wedding-cream rounded-xl border-l-4 border-wedding-gold">
               <h4 className="font-semibold text-xl mb-2">Hotel Movich</h4>
-              <p className="text-gray-600 mb-3">Llanogrande, Antioquia</p>
-              <p className="text-gray-700 mb-4">
-                Hotel ubicado en Llanogrande, cerca de los lugares del evento.
-              </p>
               <div className="space-y-2 text-sm">
                 <p className="text-gray-600">
-                  <span className="font-semibold">Dirección:</span> Por confirmar
+                  <span className="font-semibold">Dirección:</span> Glorieta Aeropuerto José María Córdova, Rionegro, Antioquia
                 </p>
                 <p className="text-gray-600">
-                  <span className="font-semibold">Tel:</span> Por confirmar
+                  <span className="font-semibold">Tel:</span> (601) 4824466
                 </p>
                 <p className="text-gray-600">
-                  <span className="font-semibold">Tarifa aproximada:</span> Por confirmar
+                  <span className="font-semibold">Página web:</span>{' '}
+                  <a
+                    href="https://www.movichhotels.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-wedding-gold hover:underline"
+                  >
+                    https://www.movichhotels.com/
+                  </a>
                 </p>
               </div>
             </div>

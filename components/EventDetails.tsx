@@ -67,7 +67,6 @@ export default function EventDetails() {
           <div className="space-y-6">
             <div className="text-center mb-8">
               <div className="p-6 bg-wedding-cream rounded-xl max-w-md mx-auto">
-                <div className="text-wedding-gold text-3xl mb-3">🎉</div>
                 <h4 className="font-semibold text-xl mb-2">Ceremonia Simbólica, Cóctel y Fiesta</h4>
                 <p className="text-gray-700 text-lg">3:30 PM</p>
               </div>
@@ -108,6 +107,14 @@ export default function EventDetails() {
           </div>
         </div>
 
+        {/* Nota sobre día festivo */}
+        <div className="bg-wedding-light rounded-2xl shadow-lg p-6 md:p-8 border-l-4 border-wedding-gold">
+          <p className="text-gray-700 text-center">
+            <span className="font-semibold">Nota:</span> El lunes 18 de mayo es día festivo, 
+            así que no te preocupes por el regreso. ¡Disfruta el fin de semana completo!
+          </p>
+        </div>
+
         {/* Información Útil */}
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
           <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
@@ -142,7 +149,7 @@ export default function EventDetails() {
         {/* Dress Code */}
         <div id="vestimenta" className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
           <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
-            Vestuario
+            Código de Vestimenta
           </h3>
           
           <div className="space-y-6">
@@ -159,7 +166,7 @@ export default function EventDetails() {
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="p-6 bg-wedding-cream rounded-xl">
                 <h4 className="font-semibold text-lg mb-3 text-center">
-                  <span className="text-2xl mr-2">🤵</span> Para los Hombres
+                  <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
                 </h4>
                 <p className="text-gray-700 text-center">
                   Smoking negro
@@ -168,7 +175,7 @@ export default function EventDetails() {
               
               <div className="p-6 bg-wedding-cream rounded-xl">
                 <h4 className="font-semibold text-lg mb-3 text-center">
-                  <span className="text-2xl mr-2">👗</span> Para las Mujeres
+                  <span className="text-2xl mr-2">👩🏻</span> Para las Mujeres
                 </h4>
                 <p className="text-gray-700 text-center">
                   Traje elegante
