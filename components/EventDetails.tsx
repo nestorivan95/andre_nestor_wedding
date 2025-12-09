@@ -148,63 +148,78 @@ export default function EventDetails() {
 
         {/* Dress Code */}
         <div id="vestimenta" className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-          <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
+          <h3 className="text-3xl font-elegant text-wedding-gold mb-8 text-center">
             Código de Vestimenta
           </h3>
           
-          <div className="space-y-6">
-            <div className="text-center">
-              <p className="text-xl font-semibold text-gray-800 mb-4">
-                Formal Elegante
-              </p>
-              <p className="text-gray-700 mb-6">
-                Queremos compartir contigo este día especial, por lo que te pedimos
-                vestir de manera formal y elegante.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div className="p-6 bg-wedding-cream rounded-xl">
-                <h4 className="font-semibold text-lg mb-3 text-center">
-                  <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
-                </h4>
-                <p className="text-gray-700 text-center">
-                  Smoking negro
-                </p>
-              </div>
+          <div className="space-y-12">
+            {/* Sábado 16 de Mayo */}
+            <div>
+              <h4 className="text-2xl font-elegant text-wedding-gold mb-6 text-center">
+                Sábado, 16 de Mayo de 2026
+              </h4>
               
-              <div className="p-6 bg-wedding-cream rounded-xl">
-                <h4 className="font-semibold text-lg mb-3 text-center">
-                  <span className="text-2xl mr-2">👩🏻</span> Para las Mujeres
-                </h4>
-                <p className="text-gray-700 text-center">
-                  Traje elegante
-                </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="p-6 bg-wedding-cream rounded-xl">
+                  <h5 className="font-semibold text-lg mb-3 text-center">
+                    <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
+                  </h5>
+                  <p className="text-gray-700 text-center">
+                    Business casual
+                  </p>
+                </div>
+                
+                <div className="p-6 bg-wedding-cream rounded-xl">
+                  <h5 className="font-semibold text-lg mb-3 text-center">
+                    <span className="text-2xl mr-2">👩🏻</span> Para las Mujeres
+                  </h5>
+                  <p className="text-gray-700 text-center">
+                    Business casual
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="p-6 bg-green-50 rounded-xl border-l-4 border-green-400">
-                <h4 className="font-semibold text-lg mb-3 text-green-800">
-                  ✅ Colores Recomendados
-                </h4>
-                <ul className="text-gray-700 space-y-2">
-                  <li>• Tonos pastel suaves</li>
-                  <li>• Beige, crema, rosa pálido</li>
-                  <li>• Azul marino, gris elegante</li>
-                  <li>• Dorado sutil como acento</li>
-                </ul>
-              </div>
+            {/* Domingo 17 de Mayo */}
+            <div>
+              <h4 className="text-2xl font-elegant text-wedding-gold mb-6 text-center">
+                Domingo, 17 de Mayo de 2026
+              </h4>
               
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="p-6 bg-wedding-cream rounded-xl">
+                  <h5 className="font-semibold text-lg mb-3 text-center">
+                    <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
+                  </h5>
+                  <ul className="text-gray-700 space-y-2 text-center">
+                    <li>Smoking</li>
+                    <li>Moño negro</li>
+                    <li>Zapatos negros</li>
+                  </ul>
+                </div>
+                
+                <div className="p-6 bg-wedding-cream rounded-xl">
+                  <h5 className="font-semibold text-lg mb-3 text-center">
+                    <span className="text-2xl mr-2">👩🏻</span> Para las Mujeres
+                  </h5>
+                  <ul className="text-gray-700 space-y-2 text-center">
+                    <li>Vestido largo</li>
+                    <li>Accesorio a gusto</li>
+                    <li>Tacones</li>
+                  </ul>
+                </div>
+              </div>
+
               <div className="p-6 bg-yellow-50 rounded-xl border-l-4 border-yellow-400">
-                <h4 className="font-semibold text-lg mb-3 text-yellow-800">
+                <h5 className="font-semibold text-lg mb-3 text-yellow-800">
                   ⚠️ Colores Reservados
-                </h4>
-                <ul className="text-gray-700 space-y-2">
-                  <li>• Blanco (reservado para la novia)</li>
-                  <li>• Negro total (preferimos colores más alegres)</li>
-                  <li>• Colores muy brillantes o neón</li>
-                </ul>
+                </h5>
+                <div className="text-gray-700">
+                  <p className="mb-2">Por favor evita los siguientes colores:</p>
+                  <p className="text-sm">
+                    Blanco, beige, plateado, dorado, palo rosa, café, azul índigo, nude, hueso, tornasol.
+                  </p>
+                </div>
               </div>
             </div>
 
