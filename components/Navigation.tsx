@@ -12,7 +12,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
   const menuItems = [
     { label: 'Inicio', href: '#inicio' },
     { label: 'Detalles del Evento', href: '#detalles' },
-    { label: 'Código de Vestimenta', href: '#vestimenta' },
+    { label: 'Código de Vestuario', href: '#vestimenta' },
     { label: 'Regalos', href: '#regalos' },
     { label: 'Viaje', href: '#viaje' },
     { label: 'FAQ', href: '#faq' },

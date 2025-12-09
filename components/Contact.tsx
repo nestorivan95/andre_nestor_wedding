@@ -21,7 +21,7 @@ export default function Contact() {
     },
     {
       question: '¿Dónde puedo estacionar?',
-      answer: 'El lugar cuenta con estacionamiento. Los cupos son limitados, llega 10 minutos antes para poder asegurar tu cupo.',
+      answer: 'El lugar cuenta con estacionamiento. Los cupos son limitados, llega 30 minutos antes para poder asegurar tu cupo.',
     },
     {
       question: '¿Qué pasa si no puedo asistir?',

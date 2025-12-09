@@ -129,7 +129,7 @@ export default function EventDetails() {
               </h4>
               <p className="text-gray-700">
                 El salón cuenta con estacionamiento gratuito para todos los invitados.
-                Te recomendamos llegar con 15 minutos de anticipación.
+                Te recomendamos llegar 30 minutos antes.
               </p>
             </div>
             
@@ -149,8 +149,26 @@ export default function EventDetails() {
         {/* Dress Code */}
         <div id="vestimenta" className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
           <h3 className="text-3xl font-elegant text-wedding-gold mb-8 text-center">
-            Código de Vestimenta
+            Código de Vestuario
           </h3>
+          
+          {/* Moodboard de Pinterest */}
+          <div className="mb-8 text-center">
+            <p className="text-gray-700 mb-4">
+              Consulta nuestro moodboard en Pinterest como referencia:
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block btn-secondary"
+            >
+              Ver Moodboard en Pinterest
+            </a>
+            <p className="text-sm text-gray-500 mt-2">
+              * Reemplaza este enlace con tu moodboard de Pinterest
+            </p>
+          </div>
           
           <div className="space-y-12">
             {/* Sábado 16 de Mayo */}
@@ -193,7 +211,7 @@ export default function EventDetails() {
                   </h5>
                   <ul className="text-gray-700 space-y-2 text-center">
                     <li>Smoking negro</li>
-                    <li>Moño negro</li>
+                    <li>Corbatín negro</li>
                     <li>Zapatos negros</li>
                   </ul>
                 </div>
