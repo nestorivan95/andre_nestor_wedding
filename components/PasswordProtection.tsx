@@ -24,6 +24,13 @@ export default function PasswordProtection({ children }: { children: React.React
       setIsAuthenticated(true)
       sessionStorage.setItem('wedding_auth', 'true')
       setError(false)
+      // Redirigir al Hero después de autenticar
+      setTimeout(() => {
+        const heroElement = document.querySelector('#inicio')
+        if (heroElement) {
+          heroElement.scrollIntoView({ behavior: 'smooth' })
+        }
+      }, 100)
     } else {
       setError(true)
       setPassword('')

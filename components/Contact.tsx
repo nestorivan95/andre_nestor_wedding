@@ -33,7 +33,7 @@ export default function Contact() {
     },
     {
       question: '¿Qué tan lejos está el recinto de la ciudad/hoteles principales?',
-      answer: 'Para que los invitados planifiquen su regreso.',
+      answer: 'Desde Medellín (Centro Comercial El Tesoro) está a 50 minutos - 1 hora del lugar. Ten en cuenta que pueden haber retrasos, así que planea bien tus recorridos. Desde Llanogrande son 10-15 minutos.',
     },
     {
       question: '¿La ceremonia y la recepción serán en el mismo lugar?',
@@ -108,7 +108,7 @@ export default function Contact() {
         </div>
 
         {/* Preguntas Frecuentes */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+        <div id="faq" className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
           <h3 className="text-3xl font-elegant text-wedding-gold mb-8 text-center">
             Preguntas Frecuentes
           </h3>

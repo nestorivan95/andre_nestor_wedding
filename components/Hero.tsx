@@ -28,7 +28,7 @@ export default function Hero() {
             Nos casamos
           </p>
           <p className="text-2xl md:text-3xl text-gray-700 font-semibold">
-            17 de Mayo
+            16 y 17 de Mayo
           </p>
           <p className="text-lg md:text-xl text-gray-600 font-light">
             Llanogrande, Antioquia

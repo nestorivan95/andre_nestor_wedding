@@ -18,7 +18,6 @@ export default function EventDetails() {
           <div className="space-y-6">
             <div className="text-center mb-8">
               <div className="p-6 bg-wedding-cream rounded-xl max-w-md mx-auto">
-                <div className="text-wedding-gold text-3xl mb-3">⛪</div>
                 <h4 className="font-semibold text-xl mb-2">Ceremonia Católica</h4>
                 <p className="text-gray-700 text-lg">10:00 AM</p>
               </div>
@@ -141,7 +140,7 @@ export default function EventDetails() {
         </div>
 
         {/* Dress Code */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+        <div id="vestimenta" className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
           <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
             Vestuario
           </h3>

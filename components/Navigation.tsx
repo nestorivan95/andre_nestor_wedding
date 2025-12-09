@@ -11,10 +11,11 @@ export default function Navigation({ isScrolled }: NavigationProps) {
 
   const menuItems = [
     { label: 'Inicio', href: '#inicio' },
-    { label: 'Cuenta Regresiva', href: '#countdown' },
-    { label: 'Detalles', href: '#detalles' },
+    { label: 'Detalles del Evento', href: '#detalles' },
+    { label: 'Código de Vestimenta', href: '#vestimenta' },
     { label: 'Regalos', href: '#regalos' },
     { label: 'Viaje', href: '#viaje' },
+    { label: 'FAQ', href: '#faq' },
     { label: 'Contacto', href: '#contacto' },
   ]
 
