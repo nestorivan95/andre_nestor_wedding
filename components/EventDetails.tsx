@@ -235,9 +235,6 @@ export default function EventDetails() {
                 >
                   Ver Moodboard en Pinterest
                 </a>
-                <p className="text-sm text-gray-500 mt-2">
-                  * Reemplaza este enlace con tu moodboard de Pinterest
-                </p>
               </div>
             </div>
 
