@@ -152,24 +152,6 @@ export default function EventDetails() {
             Código de Vestuario
           </h3>
           
-          {/* Moodboard de Pinterest */}
-          <div className="mb-8 text-center">
-            <p className="text-gray-700 mb-4">
-              Consulta nuestro moodboard en Pinterest como referencia:
-            </p>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block btn-secondary"
-            >
-              Ver Moodboard en Pinterest
-            </a>
-            <p className="text-sm text-gray-500 mt-2">
-              * Reemplaza este enlace con tu moodboard de Pinterest
-            </p>
-          </div>
-          
           <div className="space-y-12">
             {/* Sábado 16 de Mayo */}
             <div>
@@ -238,6 +220,24 @@ export default function EventDetails() {
                     Blanco, beige, plateado, dorado, palo rosa, café, azul índigo, nude, hueso, tornasol.
                   </p>
                 </div>
+              </div>
+
+              {/* Moodboard de Pinterest */}
+              <div className="mt-6 text-center">
+                <p className="text-gray-700 mb-4">
+                  Consulta nuestro moodboard en Pinterest como referencia:
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block btn-secondary"
+                >
+                  Ver Moodboard en Pinterest
+                </a>
+                <p className="text-sm text-gray-500 mt-2">
+                  * Reemplaza este enlace con tu moodboard de Pinterest
+                </p>
               </div>
             </div>
 
