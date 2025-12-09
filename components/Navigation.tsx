@@ -13,7 +13,6 @@ export default function Navigation({ isScrolled }: NavigationProps) {
     { label: 'Inicio', href: '#inicio' },
     { label: 'Cuenta Regresiva', href: '#countdown' },
     { label: 'Detalles', href: '#detalles' },
-    { label: 'RSVP', href: '#rsvp' },
     { label: 'Regalos', href: '#regalos' },
     { label: 'Viaje', href: '#viaje' },
     { label: 'Contacto', href: '#contacto' },

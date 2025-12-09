@@ -169,6 +169,15 @@ export default function EventDetails() {
               </p>
             </div>
 
+            <div className="mb-6 p-6 bg-wedding-cream rounded-xl">
+              <h4 className="font-semibold text-lg mb-3 text-center">
+                👔 Para los Hombres
+              </h4>
+              <p className="text-gray-700 text-center">
+                Smoking negro
+              </p>
+            </div>
+
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-6 bg-green-50 rounded-xl border-l-4 border-green-400">
                 <h4 className="font-semibold text-lg mb-3 text-green-800">
@@ -184,7 +193,7 @@ export default function EventDetails() {
               
               <div className="p-6 bg-red-50 rounded-xl border-l-4 border-red-400">
                 <h4 className="font-semibold text-lg mb-3 text-red-800">
-                  ❌ Colores a Evitar
+                  🚫 Colores Reservados
                 </h4>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Blanco (reservado para la novia)</li>

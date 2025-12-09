@@ -18,6 +18,7 @@ module.exports = {
       },
       fontFamily: {
         'elegant': ['Playfair Display', 'serif'],
+        'wedding': ['Dancing Script', 'cursive'],
         'body': ['Lato', 'sans-serif'],
       },
     },

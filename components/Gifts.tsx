@@ -47,33 +47,9 @@ export default function Gifts() {
                 Lluvia de Sobres
               </h3>
               <p className="text-gray-700 mb-6">
-                Si prefieres hacer un regalo en efectivo, puedes entregarlo el día del evento
-                o hacer una transferencia bancaria usando los siguientes datos:
-              </p>
-              <div className="text-left space-y-3 bg-wedding-cream p-6 rounded-lg">
-                <div>
-                  <p className="font-semibold text-gray-800">Banco:</p>
-                  <p className="text-gray-700">Por confirmar</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-800">Número de cuenta:</p>
-                  <p className="text-gray-700 font-mono">Por confirmar</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-800">Titular:</p>
-                  <p className="text-gray-700">Andrea & Néstor</p>
-                </div>
-              </div>
-              <p className="text-sm text-gray-500 mt-4">
-                * Los datos bancarios se actualizarán próximamente
+                Si prefieres hacer un regalo en efectivo, puedes entregarlo el día del evento.
               </p>
             </div>
-          </div>
-
-          <div className="mt-12 pt-8 border-t border-gray-300">
-            <p className="text-lg text-gray-600 italic">
-              "El mejor regalo es compartir este momento con nosotros"
-            </p>
           </div>
         </div>
       </div>

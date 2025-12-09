@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 import Hero from '@/components/Hero'
 import Countdown from '@/components/Countdown'
 import EventDetails from '@/components/EventDetails'
-import RSVP from '@/components/RSVP'
 import Gifts from '@/components/Gifts'
 import TravelInfo from '@/components/TravelInfo'
 import Contact from '@/components/Contact'
@@ -27,7 +26,6 @@ export default function Home() {
       <Hero />
       <Countdown />
       <EventDetails />
-      <RSVP />
       <Gifts />
       <TravelInfo />
       <Contact />

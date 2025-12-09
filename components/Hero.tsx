@@ -1,13 +1,6 @@
 'use client'
 
 export default function Hero() {
-  const scrollToRSVP = () => {
-    const element = document.querySelector('#rsvp')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-
   return (
     <section
       id="inicio"
@@ -21,11 +14,11 @@ export default function Hero() {
 
       <div className="text-center z-10 animate-fade-in-up px-4">
         <div className="mb-16 md:mb-20">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-elegant text-gray-800 mb-4">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-wedding text-gray-800 mb-4 italic">
             Andrea
           </h1>
-          <div className="text-2xl md:text-3xl text-wedding-gold mb-4">&</div>
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-elegant text-gray-800 mb-8">
+          <div className="text-3xl md:text-4xl text-wedding-gold mb-4 font-wedding italic">&</div>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-wedding text-gray-800 mb-8 italic">
             Néstor
           </h1>
         </div>
@@ -41,13 +34,6 @@ export default function Hero() {
             Llanogrande, Antioquia
           </p>
         </div>
-
-        <button
-          onClick={scrollToRSVP}
-          className="btn-primary text-lg md:text-xl mt-8"
-        >
-          Confirmar Asistencia
-        </button>
       </div>
     </section>
   )
