@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import PasswordProtection from '@/components/PasswordProtection'
 import Hero from '@/components/Hero'
 import Countdown from '@/components/Countdown'
 import EventDetails from '@/components/EventDetails'
@@ -21,15 +22,17 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="min-h-screen">
-      <Navigation isScrolled={isScrolled} />
-      <Hero />
-      <Countdown />
-      <EventDetails />
-      <Gifts />
-      <TravelInfo />
-      <Contact />
-    </main>
+    <PasswordProtection>
+      <main className="min-h-screen">
+        <Navigation isScrolled={isScrolled} />
+        <Hero />
+        <Countdown />
+        <EventDetails />
+        <Gifts />
+        <TravelInfo />
+        <Contact />
+      </main>
+    </PasswordProtection>
   )
 }
 
