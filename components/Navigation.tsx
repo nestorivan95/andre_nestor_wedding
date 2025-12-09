@@ -16,7 +16,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
     { label: 'Regalos', href: '#regalos' },
     { label: 'Viaje', href: '#viaje' },
     { label: 'FAQ', href: '#faq' },
-    { label: 'Contacto', href: '#contacto' },
+    { label: 'RSVP', href: '#rsvp' },
   ]
 
   const scrollToSection = (href: string) => {

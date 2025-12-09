@@ -47,21 +47,22 @@ export default function Contact() {
 
   return (
     <section
-      id="contacto"
+      id="rsvp"
       className="section-container bg-white"
     >
-      <h2 className="section-title">Contacto</h2>
+      <h2 className="section-title">RSVP</h2>
 
       <div className="max-w-4xl mx-auto space-y-12">
         {/* Información de Contacto */}
         <div className="bg-gradient-to-br from-wedding-beige to-wedding-cream rounded-2xl shadow-lg p-8 md:p-12">
-          <h3 className="text-3xl font-elegant text-wedding-gold mb-8 text-center">
-            ¿Tienes alguna pregunta?
+          <h3 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
+            Confirmación de Asistencia
           </h3>
           
           <p className="text-center text-gray-700 mb-8 text-lg">
-            Si tienes alguna duda o necesitas más información, no dudes en contactarnos.
-            Estaremos encantados de ayudarte.
+            Por favor, comunícate con alguno de los novios para confirmar tu asistencia.
+            En tu confirmación, indícanos si asistirás a ambos días (16 y 17 de mayo) o solo a uno,
+            especificando cuál día.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -100,6 +101,16 @@ export default function Contact() {
                 +57 304 649-5050
               </a>
             </div>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-gray-300">
+            <h4 className="text-2xl font-elegant text-wedding-gold mb-4 text-center">
+              ¿Tienes alguna pregunta?
+            </h4>
+            <p className="text-center text-gray-700 text-lg">
+              Si tienes alguna duda o necesitas más información, no dudes en contactarnos.
+              Estaremos encantados de ayudarte.
+            </p>
           </div>
         </div>
 
