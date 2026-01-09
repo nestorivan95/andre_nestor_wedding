@@ -178,6 +178,21 @@ export default function EventDetails() {
                   </p>
                 </div>
               </div>
+
+              {/* Moodboard de Pinterest - Sábado 16 */}
+              <div className="mt-6 text-center">
+                <p className="text-gray-700 mb-4">
+                  Consulta nuestro moodboard en Pinterest como referencia:
+                </p>
+                <a
+                  href="https://pin.it/JEcSzsEZU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block btn-secondary"
+                >
+                  Ver Moodboard en Pinterest
+                </a>
+              </div>
             </div>
 
             {/* Domingo 17 de Mayo */}
@@ -222,13 +237,13 @@ export default function EventDetails() {
                 </div>
               </div>
 
-              {/* Moodboard de Pinterest */}
+              {/* Moodboard de Pinterest - Domingo 17 */}
               <div className="mt-6 text-center">
                 <p className="text-gray-700 mb-4">
                   Consulta nuestro moodboard en Pinterest como referencia:
                 </p>
                 <a
-                  href="#"
+                  href="https://pin.it/h3bk8Dedg"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block btn-secondary"
