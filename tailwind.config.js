@@ -19,6 +19,7 @@ module.exports = {
       fontFamily: {
         'elegant': ['Playfair Display', 'serif'],
         'wedding': ['Dancing Script', 'cursive'],
+        'bodoni': ['var(--font-bodoni)', 'serif'],
         'body': ['Lato', 'sans-serif'],
       },
     },

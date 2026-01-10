@@ -14,11 +14,11 @@ export default function Hero() {
 
       <div className="text-center z-10 animate-fade-in-up px-4">
         <div className="mb-16 md:mb-20">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-wedding text-gray-800 mb-4 italic">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bodoni text-gray-800 mb-4">
             Andrea
           </h1>
-          <div className="text-3xl md:text-4xl text-wedding-gold mb-4 font-wedding italic">&</div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-wedding text-gray-800 mb-8 italic">
+          <div className="text-3xl md:text-4xl text-wedding-gold mb-4 font-bodoni">&</div>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bodoni text-gray-800 mb-8">
             Néstor
           </h1>
         </div>
