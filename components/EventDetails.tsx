@@ -23,16 +23,6 @@ export default function EventDetails() {
               </div>
             </div>
 
-            <div className="text-center mb-8">
-              <div className="p-6 bg-wedding-cream rounded-xl max-w-md mx-auto">
-                <h4 className="font-semibold text-xl mb-2">
-                  Actividad post ceremonia católica
-                </h4>
-                <p className="text-gray-700 text-lg">11:30 AM</p>
-                <p className="text-gray-600 text-sm">Lugar por definir</p>
-              </div>
-            </div>
-
             {/* Ubicación Sábado */}
             <div className="border-t border-gray-200 pt-6">
               <h4 className="text-2xl font-elegant text-wedding-gold mb-4 text-center">
@@ -63,6 +53,16 @@ export default function EventDetails() {
                 >
                   Abrir en Google Maps
                 </a>
+              </div>
+            </div>
+
+            <div className="text-center mb-8">
+              <div className="p-6 bg-wedding-cream rounded-xl max-w-md mx-auto">
+                <h4 className="font-semibold text-xl mb-2">
+                  Actividad post ceremonia católica
+                </h4>
+                <p className="text-gray-700 text-lg">11:30 AM</p>
+                <p className="text-gray-600 text-sm">Lugar por definir</p>
               </div>
             </div>
           </div>
