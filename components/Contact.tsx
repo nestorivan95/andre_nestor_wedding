@@ -67,7 +67,7 @@ export default function Contact() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-center p-6 bg-white rounded-xl shadow-md">
-              <div className="text-4xl mb-4">👰🏻</div>
+              <div className="text-4xl mb-4">👰🏻‍♀️</div>
               <h4 className="font-semibold text-xl mb-2">Andrea Guzmán</h4>
               <a
                 href="mailto:andreitagga98@gmail.com"
@@ -84,7 +84,7 @@ export default function Contact() {
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl shadow-md">
-              <div className="text-4xl mb-4">🤵🏻</div>
+              <div className="text-4xl mb-4">🤵🏻‍♂️</div>
               <h4 className="font-semibold text-xl mb-2">Néstor Ramírez</h4>
               <a
                 href="mailto:nestorivan00@gmail.com"

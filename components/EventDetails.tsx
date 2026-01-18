@@ -162,7 +162,7 @@ export default function EventDetails() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-6 bg-wedding-cream rounded-xl">
                   <h5 className="font-semibold text-lg mb-3 text-center">
-                    <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
+                    <span className="text-2xl mr-2">🤵🏻‍♂️</span> Para los Hombres
                   </h5>
                   <p className="text-gray-700 text-center">
                     Business casual
@@ -204,7 +204,7 @@ export default function EventDetails() {
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div className="p-6 bg-wedding-cream rounded-xl">
                   <h5 className="font-semibold text-lg mb-3 text-center">
-                    <span className="text-2xl mr-2">🤵🏻</span> Para los Hombres
+                    <span className="text-2xl mr-2">🤵🏻‍♂️</span> Para los Hombres
                   </h5>
                   <ul className="text-gray-700 space-y-2 text-center">
                     <li>Smoking negro</li>
