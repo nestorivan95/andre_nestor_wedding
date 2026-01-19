@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
+import qrCode from '@/img/qr_code.jpeg'
 
 export default function Gifts() {
   const [showQr, setShowQr] = useState(false)
@@ -67,7 +69,7 @@ export default function Gifts() {
                 <button
                   type="button"
                   onClick={handleCopyBreB}
-                  className="btn-secondary text-sm"
+                  className="btn-secondary text-xs px-4 py-2 mx-auto block"
                 >
                   {copied ? 'Copiado' : 'Copiar llave'}
                 </button>
@@ -104,10 +106,11 @@ export default function Gifts() {
                 ✕
               </button>
             </div>
-            <img
-              src="/img/qr_code.jpeg"
+            <Image
+              src={qrCode}
               alt="Código QR Bancolombia"
               className="w-full h-auto rounded-lg"
+              sizes="100vw"
             />
           </div>
         </div>
