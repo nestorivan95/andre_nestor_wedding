@@ -299,6 +299,21 @@ export default function EventDetails() {
                   </p>
                 </div>
                 <div>
+                  <p className="font-semibold">Nombre: makeupcollegeoriente</p>
+                  <p>Direccion: Rionegro</p>
+                  <p>
+                    Link:{' '}
+                    <a
+                      href="https://www.instagram.com/makeupcollegeoriente/?igsh=cHV6NDZyZTkyNzFr#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-wedding-gold hover:underline"
+                    >
+                      https://www.instagram.com/makeupcollegeoriente/?igsh=cHV6NDZyZTkyNzFr#
+                    </a>
+                  </p>
+                </div>
+                <div>
                   <p className="font-semibold">Nombre: mam_manuelalzate</p>
                   <p>Direccion: Medellin (Domicilio)</p>
                   <p>
