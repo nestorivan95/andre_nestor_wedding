@@ -157,7 +157,7 @@ export default function Contact() {
           Hecho por Andrea & Néstor
         </p>
         <p className="text-gray-500 text-sm">
-          © 2025 - Todos los derechos reservados
+          © 2026 - Todos los derechos reservados
         </p>
       </footer>
     </section>
