@@ -287,7 +287,6 @@ export default function EventDetails() {
                   <p className="font-semibold">kahlobeautyy</p>
                   <p>Direccion: Mall Jardines Llanogrande 227</p>
                   <p>
-                    Link:{' '}
                     <a
                       href="https://www.instagram.com/kahlobeautyy/?hl=es"
                       target="_blank"
@@ -302,7 +301,6 @@ export default function EventDetails() {
                   <p className="font-semibold">makeupcollegeoriente</p>
                   <p>Direccion: Rionegro</p>
                   <p>
-                    Link:{' '}
                     <a
                       href="https://www.instagram.com/makeupcollegeoriente/?igsh=cHV6NDZyZTkyNzFr#"
                       target="_blank"
@@ -317,7 +315,6 @@ export default function EventDetails() {
                   <p className="font-semibold">mam_manuelalzate</p>
                   <p>Direccion: Medellin (Domicilio)</p>
                   <p>
-                    Link:{' '}
                     <a
                       href="https://www.instagram.com/mam_manuelalzate/?igsh=MWV4ZTl1ZW51Ymd5dQ%3D%3D#"
                       target="_blank"
