@@ -1,6 +1,21 @@
 'use client'
 
+import { useState } from 'react'
+
 export default function Gifts() {
+  const [showQr, setShowQr] = useState(false)
+  const [copied, setCopied] = useState(false)
+
+  const handleCopyBreB = async () => {
+    try {
+      await navigator.clipboard.writeText('@andreag0825')
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 2000)
+    } catch {
+      setCopied(false)
+    }
+  }
+
   return (
     <section
       id="regalos"
@@ -23,26 +38,80 @@ export default function Gifts() {
                 Lista de Regalos
               </h3>
               <p className="text-gray-700 mb-6">
-                Más adelante publicaremos nuestra lista de regalos. 
-                Les estaremos avisando con tiempo para que puedan elegir.
+                A continuación puedes ver nuestra lista de regalos ingresando a Kadolist.
               </p>
-              <p className="text-sm text-gray-500">
-                * En este momento no tenemos la lista disponible
-              </p>
+              <a
+                href="https://kadolist.com/events/matrimonio-andre-nestor"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block btn-secondary"
+              >
+                Ver lista de regalos
+              </a>
             </div>
 
             {/* Lluvia de Sobres */}
             <div className="bg-white rounded-xl p-8 shadow-md">
               <h3 className="text-2xl font-elegant text-wedding-gold mb-4">
-                Lluvia de Sobres
+                Transferencia bancaria
               </h3>
               <p className="text-gray-700 mb-6">
-                Si prefieres hacer un regalo en efectivo, puedes entregarlo el día del evento.
+                Si prefieres hacer una transferencia, puedes usar los siguientes datos.
               </p>
+              <div className="bg-wedding-cream rounded-lg p-4 text-left">
+                <p className="text-gray-700 mb-2">
+                  <span className="font-semibold">Llave Bre-b:</span>{' '}
+                  <span className="font-mono">@andreag0825</span>{' '}
+                  <span className="text-gray-500 text-sm">(Bancolombia)</span>
+                </p>
+                <button
+                  type="button"
+                  onClick={handleCopyBreB}
+                  className="btn-secondary text-sm"
+                >
+                  {copied ? 'Copiado' : 'Copiar llave'}
+                </button>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowQr(true)}
+                className="btn-secondary mt-4"
+              >
+                Ver código QR
+              </button>
             </div>
           </div>
         </div>
       </div>
+
+      {showQr && (
+        <div
+          className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4"
+          onClick={() => setShowQr(false)}
+        >
+          <div
+            className="bg-white rounded-xl p-4 max-w-md w-full"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="text-lg font-semibold text-gray-800">Código QR</h4>
+              <button
+                type="button"
+                onClick={() => setShowQr(false)}
+                className="text-gray-500 hover:text-gray-700"
+                aria-label="Cerrar"
+              >
+                ✕
+              </button>
+            </div>
+            <img
+              src="/img/qr_code.jpeg"
+              alt="Código QR Bancolombia"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </div>
+      )}
     </section>
   )
 }
