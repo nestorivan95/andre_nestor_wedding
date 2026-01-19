@@ -278,6 +278,10 @@ export default function EventDetails() {
                 <span className="text-wedding-gold mr-2">💄</span>
                 Lugares para Arreglarse
               </h4>
+              <p className="text-gray-700 mb-4">
+                Te compartimos algunas recomendaciones por si lo necesitas. Son opciones sugeridas,
+                pero puedes elegir cualquier otro servicio que prefieras.
+              </p>
               <div className="space-y-4 text-gray-700">
                 <div>
                   <p className="font-semibold">Nombre: kahlobeautyy</p>
