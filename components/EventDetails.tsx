@@ -163,7 +163,7 @@ export default function EventDetails() {
           <div className="space-y-12">
             {/* Sábado 16 de Mayo */}
             <div>
-              <h4 className="text-2xl font-elegant text-wedding-gold mb-6 text-center">
+              <h4 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
                 Sábado, 16 de Mayo de 2026
               </h4>
               
@@ -205,7 +205,7 @@ export default function EventDetails() {
 
             {/* Domingo 17 de Mayo */}
             <div>
-              <h4 className="text-2xl font-elegant text-wedding-gold mb-6 text-center">
+              <h4 className="text-3xl font-elegant text-wedding-gold mb-6 text-center">
                 Domingo, 17 de Mayo de 2026
               </h4>
               
@@ -271,6 +271,45 @@ export default function EventDetails() {
                 te recomendamos traer una chaqueta ligera por si acaso. El salón
                 tiene piso de mármol, así que considera zapatos cómodos para bailar.
               </p>
+            </div>
+
+            <div className="mt-6 p-6 bg-wedding-cream rounded-xl">
+              <h4 className="font-semibold text-lg mb-3 flex items-center">
+                <span className="text-wedding-gold mr-2">💄</span>
+                Lugares para Arreglarse
+              </h4>
+              <div className="space-y-4 text-gray-700">
+                <div>
+                  <p className="font-semibold">Nombre: kahlobeautyy</p>
+                  <p>Direccion: Mall Jardines Llanogrande 227</p>
+                  <p>
+                    Link:{' '}
+                    <a
+                      href="https://www.instagram.com/kahlobeautyy/?hl=es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-wedding-gold hover:underline"
+                    >
+                      https://www.instagram.com/kahlobeautyy/?hl=es
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <p className="font-semibold">Nombre: mam_manuelalzate</p>
+                  <p>Direccion: Medellin (Domicilio)</p>
+                  <p>
+                    Link:{' '}
+                    <a
+                      href="https://www.instagram.com/mam_manuelalzate/?igsh=MWV4ZTl1ZW51Ymd5dQ%3D%3D#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-wedding-gold hover:underline"
+                    >
+                      https://www.instagram.com/mam_manuelalzate/?igsh=MWV4ZTl1ZW51Ymd5dQ%3D%3D#
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
