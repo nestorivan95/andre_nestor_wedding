@@ -59,11 +59,16 @@ export default function Contact() {
             Confirmación de Asistencia
           </h3>
           
-          <p className="text-center text-gray-700 mb-8 text-lg">
-            Por favor, comunícate con alguno de los novios para confirmar tu asistencia.
-            En tu confirmación, indícanos si asistirás a ambos días (16 y 17 de mayo) o solo a uno,
-            especificando cuál día. La fecha máxima de confirmación es el 1 de abril de 2026.
-          </p>
+          <div className="text-center text-gray-700 mb-8 text-base">
+            <p>
+              Por favor, comunícate con alguno de los novios para confirmar tu asistencia.
+              En tu confirmación, indícanos si asistirás a ambos días (16 y 17 de mayo) o solo a uno,
+              especificando cuál día.
+            </p>
+            <p className="mt-2">
+              <strong>La fecha máxima de confirmación es el 1 de abril de 2026.</strong>
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-center p-6 bg-white rounded-xl shadow-md">

@@ -30,7 +30,7 @@ export default function Gifts() {
           <div className="text-5xl mb-6">🎁</div>
           
           <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-            Te compartimos algunas opciones.
+            Te compartimos algunas opciones:
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
