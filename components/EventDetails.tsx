@@ -284,7 +284,7 @@ export default function EventDetails() {
               </p>
               <div className="space-y-4 text-gray-700">
                 <div>
-                  <p className="font-semibold">Nombre: kahlobeautyy</p>
+                  <p className="font-semibold">kahlobeautyy</p>
                   <p>Direccion: Mall Jardines Llanogrande 227</p>
                   <p>
                     Link:{' '}
@@ -299,7 +299,7 @@ export default function EventDetails() {
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Nombre: makeupcollegeoriente</p>
+                  <p className="font-semibold">makeupcollegeoriente</p>
                   <p>Direccion: Rionegro</p>
                   <p>
                     Link:{' '}
@@ -314,7 +314,7 @@ export default function EventDetails() {
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Nombre: mam_manuelalzate</p>
+                  <p className="font-semibold">mam_manuelalzate</p>
                   <p>Direccion: Medellin (Domicilio)</p>
                   <p>
                     Link:{' '}
