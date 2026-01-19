@@ -58,10 +58,8 @@ export default function EventDetails() {
 
             <div className="text-center mb-8">
               <div className="p-6 bg-wedding-cream rounded-xl max-w-md mx-auto">
-                <h4 className="font-semibold text-xl mb-2">
-                  Actividad post ceremonia católica
-                </h4>
-                <p className="text-gray-700 text-lg">11:30 AM</p>
+                <h4 className="font-semibold text-xl mb-2">Brindis</h4>
+                <p className="text-gray-700 text-lg">11:00 AM</p>
                 <p className="text-gray-600 text-sm">Lugar por definir</p>
               </div>
             </div>
@@ -175,7 +173,7 @@ export default function EventDetails() {
                     <span className="text-2xl mr-2">🤵🏻‍♂️</span> Para los Hombres
                   </h5>
                   <p className="text-gray-700 text-center">
-                    Business casual
+                    Elegante de dia
                   </p>
                 </div>
                 
@@ -184,7 +182,7 @@ export default function EventDetails() {
                     <span className="text-2xl mr-2">👩🏻</span> Para las Mujeres
                   </h5>
                   <p className="text-gray-700 text-center">
-                    Business casual
+                    Elegante de dia
                   </p>
                 </div>
               </div>

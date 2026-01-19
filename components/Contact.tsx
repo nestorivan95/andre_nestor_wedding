@@ -62,7 +62,7 @@ export default function Contact() {
           <p className="text-center text-gray-700 mb-8 text-lg">
             Por favor, comunícate con alguno de los novios para confirmar tu asistencia.
             En tu confirmación, indícanos si asistirás a ambos días (16 y 17 de mayo) o solo a uno,
-            especificando cuál día.
+            especificando cuál día. La fecha máxima de confirmación es el 1 de abril de 2026.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
