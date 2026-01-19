@@ -55,7 +55,7 @@ export default function Gifts() {
             {/* Lluvia de Sobres */}
             <div className="bg-white rounded-xl p-8 shadow-md">
               <h3 className="text-2xl font-elegant text-wedding-gold mb-4">
-                Transferencia bancaria
+              Lluvia de Sobres
               </h3>
               <p className="text-gray-700 mb-6">
                 Si prefieres hacer una transferencia, puedes usar los siguientes datos.
